@@ -123,6 +123,7 @@ LIMIT 5;
 | R         | 59,754           |
 | SAS       | 29,642           |
 | Tableau   | 29,513           |
+
 *Table of the demand for the top 5 skills in data scientist job postings*
 
 Here’s a breakdown of the most in-demand skills for data scientists in 2023:
