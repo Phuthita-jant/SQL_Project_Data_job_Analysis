@@ -233,6 +233,7 @@ LIMIT 10;
 | Azure     | 122              | 142,305.83               |
 | PyTorch   | 115              | 152,602.70               |
 | Pandas    | 113              | 144,815.95               |
+
 *Table of the top 10 optimal skills for data scientists*
 
 Here's a breakdown of the most optimal skills for Data Scientists in 2023:
