@@ -25,7 +25,7 @@ To conduct an in-depth analysis of the data scientist job market, I utilized a r
 - **Git & GitHub:** Crucial for version control and sharing my SQL scripts and analyses, facilitating collaboration and tracking progress.
 
 # The Analysis
-This project used a series of queries to examine specific aspects of the data scientist job market. Here’s my answer to each question
+This project used a series of queries to investigate specific aspects of the data scientist job market. Here’s my answer to each question:
 
 ### 1. Top Paying Data Scientist Jobs
 This query identified the top 10 highest-paying remote data scientist jobs by filtering for the job title, excluding entries without salary data, and ordering by average yearly salary.
@@ -52,8 +52,8 @@ ORDER BY
 LIMIT 10;
 ```
 Here's the breakdown of the top data scientist jobs in 2023:
-- **Wide Salary Range:** Top 10 data scientist jobs offer salaries ranging from $185,000 to $375,000, demonstrating the earning potential in this career.
-- **Diverse Employers:** High-paying companies like Algo Capital Group, Smith Hanley Associates, and Grammarly are recognized for offering competitive salaries, highlighting the diversity of companies that value data scientist roles.
+- **Broad Salary Range:** Top 10 data scientist jobs offer salaries ranging from $185,000 to $375,000, demonstrating the earning potential in this career.
+- **Variety of Employers:** High-paying companies like Algo Capital Group, Smith Hanley Associates, and Grammarly are recognized for offering competitive salaries, highlighting the diversity of companies that value data scientist roles.
 
 ### 2. Skills for Top Paying Jobs
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, revealing what skills employers prioritize in top-paying roles
