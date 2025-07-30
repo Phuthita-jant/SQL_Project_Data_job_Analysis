@@ -42,7 +42,7 @@ SELECT
 FROM
      job_postings_fact
    LEFT JOIN
-      company_dim ON job_postings_fact.company_id = company_dim.company_id --Join to get company_name
+      company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE
      job_title = 'Data Scientist'
      AND salary_year_avg IS NOT NULL
@@ -169,7 +169,7 @@ ORDER BY
 Here’s a breakdown of the results for top paying skills for Data Scientists:
 - **Machine Learning Skills:** Top-paying data scientists often leverage tools (Watson, R Shiny) to build AI solutions and dashboards that turn data into actionable insights, reflecting their ability to translate complex data into business value.
 - **Production-Ready Skills for Deployment:** Proficient in deployment platforms and development frameworks (Red Hat, Ruby on Rails) as well as project management tools (Airtable, Slack), indicating a capability to deliver scalable and reliable solutions in production environments.
-- **Cloud & Collaboration Expertise:** Skilled in cloud platforms (Red Hat OpenShift) and collaboration tools (Slack, Airtable), integrating them within cloud systems to ensure smooth operation and scalable data projects, demonstrating the ability to enable efficient teamwork and growing workloads.
+- **Cloud & Collaboration Expertise:** Skilled in cloud platforms (Red Hat) and collaboration tools (Slack, Airtable), integrating them within cloud systems to ensure smooth operation and scalable data projects, demonstrating the ability to enable efficient teamwork and growing workloads.
 
 ### 5. Most Optimal Skills to Learn
 After analyzing insights from demand and salary data, this query identified skills that are both in high demand and offer high salaries, guiding job seekers on what to learn.
