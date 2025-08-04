@@ -38,7 +38,7 @@ SELECT
      job_schedule_type,
      salary_year_avg,
      job_posted_date,
-     name AS compoany_name
+     name AS company_name
 FROM
      job_postings_fact
    LEFT JOIN
@@ -51,6 +51,21 @@ ORDER BY
      salary_year_avg DESC 
 LIMIT 10;
 ```
+| #  | Job ID  | Job Title      | Location | Schedule  | Salary (USD/year) | Posted Date         | Company                      |
+| -- | ------- | -------------- | -------- | --------- | ----------------- | ------------------- | ---------------------------- |
+| 1  | 1131472 | Data Scientist | Anywhere | Full-time | 375,000           | 2023-07-31 14:05:21 | Algo Capital Group           |
+| 2  | 158782  | Data Scientist | Anywhere | Full-time | 275,000           | 2023-07-04 10:41:31 | Algo Capital Group           |
+| 3  | 1489914 | Data Scientist | Anywhere | Full-time | 250,000           | 2023-10-04 16:03:51 | Smith Hanley Associates      |
+| 4  | 1538418 | Data Scientist | Anywhere | Full-time | 204,500           | 2023-01-23 01:04:11 | Grammarly                    |
+| 5  | 727817  | Data Scientist | Anywhere | Full-time | 197,500           | 2023-11-01 23:02:27 | Cisco                        |
+| 6  | 448423  | Data Scientist | Anywhere | Full-time | 195,000           | 2023-06-28 16:01:32 | Storm2                       |
+| 7  | 1693772 | Data Scientist | Anywhere | Full-time | 190,600           | 2023-01-22 00:07:05 | Tomorrow\.io                 |
+| 8  | 37309   | Data Scientist | Anywhere | Full-time | 186,000           | 2023-01-10 12:20:43 | Grammarly                    |
+| 9  | 64405   | Data Scientist | Anywhere | Full-time | 185,000           | 2023-09-21 17:28:44 | Mineral.ai                   |
+| 10 | 910502  | Data Scientist | Anywhere | Full-time | 185,000           | 2023-11-14 15:02:53 | Brookwood Search & Selection |
+
+*Table of Top-Paying Data Scientist Jobs in the Market*
+
 Here's the breakdown of the top data scientist jobs in 2023:
 - **Broad Salary Range:** Top 10 data scientist jobs offer salaries ranging from $185,000 to $375,000, demonstrating the earning potential in this career.
 - **Variety of Employers:** High-paying companies like Algo Capital Group, Smith Hanley Associates, and Grammarly are recognized for offering competitive salaries, highlighting the diversity of companies that value data scientist roles.
